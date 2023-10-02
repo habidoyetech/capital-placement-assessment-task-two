@@ -7,6 +7,7 @@ import { useUser } from '../Context/SelectUser';
 const UserListsInfo: React.FC = () => {
 
     const {userId, handleUserChange} = useUser()
+    console.log(userId)
 
 
   return (
